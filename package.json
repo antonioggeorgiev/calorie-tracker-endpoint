@@ -1,6 +1,10 @@
 {
   "name": "calorie-tracker-endpoint",
   "version": "1.0.0",
+  "scripts": {
+    "local": "vercel dev",
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@vercel/node": "^5.5.7",
