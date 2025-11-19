@@ -5,7 +5,7 @@ export default function handler(
   response: VercelResponse
 ) {
   // Log request details
-  console.log("=== Request Log ===");
+  console.log("=== Request Log 2 ===");
   console.log("Method:", request.method);
   console.log("URL:", request.url);
   console.log("Headers:", JSON.stringify(request.headers, null, 2));
